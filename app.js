@@ -4,7 +4,9 @@ var app = new Vue({
       message: 'Hello ' ,
       city: 'Lima',
       country: 'Peru',
-      name: 'Espinoza'
+      name: 'Espinoza',
+      numero1:20,
+      numero2:30
     },
     methods:{
         imprimirEnConsola(){
@@ -12,7 +14,7 @@ var app = new Vue({
         }
     },
     computed:{
-        alert:function(){
+        alert(){
             alert(this.message);
         }
     }
