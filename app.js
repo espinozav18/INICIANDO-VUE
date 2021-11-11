@@ -3,7 +3,8 @@ var app = new Vue({
     data: {
       message: 'Hello ' ,
       city: 'Lima',
-      country: 'Peru'
+      country: 'Peru',
+      name: 'Espinoza'
     },
     methods:{
         imprimirEnConsola(){
